@@ -8,7 +8,7 @@ import TodoList from "./components/TodoList"
 export default class App extends React.Component{
   render() {
     return (
-      <div>
+      <div style={{display: 'flex', flexDirection: 'column', textAlign: 'center', height: '100vh', }}>
         <TodoList/>
       </div>
     );
